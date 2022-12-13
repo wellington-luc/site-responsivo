@@ -1,0 +1,274 @@
+
+/* import fonts from fonts.css file */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
+
+/* import css variabels */
+@import url(./partials/_variables.css);
+
+/* Import CSS global */
+@import url(partials/_global.css);
+
+/* start navigation */
+
+body{
+	font: 16px 'Rubik', sans-serif;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2px 0 5rem;
+	max-width: 200px;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.redes{
+	padding-top: 1.5%;
+	padding-left: 30px;
+}
+
+.redes a > i{
+	color:var(--border-color);
+	font-size: 22px;
+	padding: 5px;
+	transition: transform .4s ease;
+}
+
+.redes a:hover > i{
+	transform: scale(1.5);
+}
+
+.second-section{
+	padding-top: 100px;
+}
+
+.navbar{
+	background: transparent !important;
+	transition: .5s ease;
+}
+
+.navbar .whatsapp{
+	position: absolute;
+}
+
+.navbar .whatsapp .whatsapp-link{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 15px;
+	right: 15px;
+	line-height: 62px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 35px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+	transition: transform .4s ease;
+}
+
+.navbar .whatsapp .whatsapp-link:hover{
+	transform: scale(1.1);
+	background-color: #FFF;
+	color: #25d366;
+	font-weight: 900;
+	box-shadow: 2px 2px 20px #5fe690;
+}
+
+.navbar.scrolled{
+	background: #FFF !important;
+	opacity: 0.9;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 2px;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+	transition: transform .4s ease;
+}
+
+.header_area .main-menu .navbar .active{
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.header_area .main-menu .nav-item a:hover{
+	-webkit-background-clip: text;
+	background-clip: text;
+	transform: scale(1.1);
+}
+/* end navigation */
+
+/* Banner Area */
+
+.site-main .site-banner{
+	height: 50vw;
+	max-height: 800px;
+	position: relative;
+}
+
+.site-main .site-banner img{
+	opacity: 0;
+	width: 100%;
+	position: absolute;
+	transition: opacity 3s;
+}
+
+.site-main .site-banner img.selected{
+	opacity: 1;
+}
+
+/* End Banner Area*/
+
+/* Start Service Area*/
+
+.site-main .services-area .services-title h1{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 12px;
+}
+
+.site-main .services-area .services{
+	/*background: rgba(248, 252, 253, 0.973);*/
+	background: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+	margin: 5rem .5rem;
+	box-shadow: var(--box-shadow);
+	border-radius: 12px;
+}
+/* End Service Area*/
+
+/* Start About Area*/
+
+.site-main .company{
+	padding: 7rem 0rem;
+}
+
+.site-main .company h1{
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 12px;
+}
+
+.site-main .company h3{
+	letter-spacing: 0.3rem;
+}
+
+.site-main .company .company-item{
+	padding-top: 3rem;
+	transition: transform .7s ease;
+}
+
+.site-main .company .company-item:hover{
+	transform: scale(1.05);
+}
+
+.site-main .about-area{
+	background: var(--gradient-color);
+}
+
+.site-main .about-area .aboutimage img{
+	border-radius: 50%;
+}
+
+.site-main .about-area .about-section{
+	padding: 2rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+	display: block;
+	font: normal bold 49px/60px;
+	letter-spacing: 10px;
+	color: #FFF;
+	text-shadow: black 0.02em 0.02em 0.02em;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+	padding: .4rem 0;
+	color: #FFF;
+}
+
+/* End About Area*/
+
+/* Footer Area*/
+footer.footer-area{
+	background: var(--gradient-color);
+	color: #FFF;
+}
+
+footer.footer-area .logo{
+	max-width: 200px;
+}
+
+footer.footer-area .adress{
+	padding-top: 3rem;
+}
+
+footer.footer-area .adress .adress-text{
+	padding-top: 2rem;
+}
+
+footer.footer-area .adress .adress-text h4{
+	padding-bottom: 15px;
+}
+
+footer.footer-area .adress .adress-text .text{
+	max-width: 450px;
+	text-align: left;
+}
+
+footer.footer-area .contacts{
+	padding-top: 120px;
+	padding-left: 100px;
+}
+
+footer.footer-area .contacts .numbers{
+	padding-top: 15px;
+}
+
+
+
+footer.footer-area .contacts .ico1{
+	float: left;
+	padding-right: 10px;
+}
+
+footer.footer-area .contacts .ico2{
+	float: left;
+	padding-right: 7px;
+}
+
+footer.footer-area .redes-footer{
+	padding-top: 120px;
+}
+
+footer.footer-area .redes-footer-icons{
+	padding-top: 1.5%;
+}
+
+footer.footer-area .redes-footer-icons a > i{
+	color: #FFF;
+	font-size: 50px;
+	padding: 20px;
+	transition: transform .4s ease;
+}
+
+footer.footer-area .redes-footer-icons a:hover > i{
+	transform: scale(1.5);
+}
+
+footer.footer-area .email{
+	padding-top: 50px;
+}
+
+footer.footer-area .copyright{
+	padding-top: 1rem;
+}
+/* End Footer Area*/

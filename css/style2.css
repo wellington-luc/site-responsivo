@@ -1,0 +1,210 @@
+
+/* import fonts from fonts.css file */
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
+
+/* import css variabels */
+@import url(./partials/_variables.css);
+
+/* Import CSS global */
+@import url(partials/_global.css);
+
+/* start navigation */
+
+body{
+	font: 16px 'Rubik', sans-serif;
+}
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2px 0 5rem;
+	max-width: 200px;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem;
+}
+
+.redes{
+	padding-top: 1.5%;
+	padding-left: 30px;
+}
+
+.redes a > i{
+	color:var(--border-color);
+	font-size: 22px;
+	padding: 5px;
+	transition: transform .4s ease;
+}
+
+.redes a:hover > i{
+	transform: scale(1.5);
+}
+
+.second-section{
+	padding-top: 100px;
+}
+
+.navbar{
+	background: transparent !important;
+	transition: .5s ease;
+}
+
+.navbar .whatsapp{
+	position: absolute;
+}
+
+.navbar .whatsapp .whatsapp-link{
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 15px;
+	right: 15px;
+	line-height: 62px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 35px;
+	box-shadow: 1px 1px 2px #888;
+	z-index: 1000;
+	transition: transform .4s ease;
+}
+
+.navbar .whatsapp .whatsapp-link:hover{
+	transform: scale(1.1);
+	background-color: #FFF;
+	color: #25d366;
+	font-weight: 900;
+	box-shadow: 2px 2px 20px #5fe690;
+}
+
+.navbar.scrolled{
+	background: #FFF !important;
+	opacity: 0.9;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 2px;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+	transition: transform .4s ease;
+}
+
+.header_area .main-menu .navbar .active{
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+
+.header_area .main-menu .nav-item a:hover{
+	-webkit-background-clip: text;
+	background-clip: text;
+	transform: scale(1.1);
+}
+/* end navigation */
+
+/* Banner Area */
+.site-main .site-banner{
+	padding-top: 110px;
+	padding-bottom: 100px;
+}
+
+.site-main .site-banner img{
+	padding: 5rem;
+}
+
+.site-main .site-banner ul{
+	padding-left: 0px;
+	float: left;
+}
+
+.site-main .site-banner ul .whats{
+	padding-left: 20px;
+}
+
+.site-main .site-banner ul li{
+	display: inline-block;
+}
+
+/* End Banner Area*/
+
+/* Footer Area*/
+footer.footer-area{
+	background: var(--gradient-color);
+	color: #FFF;
+}
+
+footer.footer-area .logo{
+	max-width: 200px;
+}
+
+footer.footer-area .adress{
+	padding-top: 3rem;
+}
+
+footer.footer-area .adress .adress-text{
+	padding-top: 2rem;
+}
+
+footer.footer-area .adress .adress-text h4{
+	padding-bottom: 15px;
+}
+
+footer.footer-area .adress .adress-text .text{
+	max-width: 450px;
+	text-align: left;
+}
+
+footer.footer-area .contacts{
+	padding-top: 120px;
+	padding-left: 100px;
+}
+
+footer.footer-area .contacts .numbers{
+	padding-top: 15px;
+}
+
+
+
+footer.footer-area .contacts .ico1{
+	float: left;
+	padding-right: 10px;
+}
+
+footer.footer-area .contacts .ico2{
+	float: left;
+	padding-right: 7px;
+}
+
+footer.footer-area .redes-footer{
+	padding-top: 120px;
+}
+
+footer.footer-area .redes-footer-icons{
+	padding-top: 1.5%;
+}
+
+footer.footer-area .redes-footer-icons a > i{
+	color: #FFF;
+	font-size: 50px;
+	padding: 20px;
+	transition: transform .4s ease;
+}
+
+footer.footer-area .redes-footer-icons a:hover > i{
+	transform: scale(1.5);
+}
+
+footer.footer-area .email{
+	padding-top: 50px;
+}
+
+footer.footer-area .copyright{
+	padding-top: 1rem;
+}
+
+/* End Footer Area*/
