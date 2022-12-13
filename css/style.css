@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
 
 /* import css variabels */
-@import url(./partials/_variables.css);
+@import url(./partials/variables.css);
 
 /* Import CSS global */
-@import url(partials/_global.css);
+@import url(partials/global.css);
 
 /* start navigation */
 
