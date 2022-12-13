@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
 
 /* import css variabels */
-@import url(./partials/variables.css);
+@import url("https://wellington-luc.github.io/site-responsivo/css/partials/variables.css");
 
 /* Import CSS global */
-@import url(partials/global.css);
+@import url("https://wellington-luc.github.io/site-responsivo/css/partials/global.css");
 
 /* start navigation */
 
